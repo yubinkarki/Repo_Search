@@ -1,0 +1,35 @@
+.wholeDiv {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.mainDiv {
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6rem;
+}
+
+.resultIconDiv {
+  display: flex;
+  align-items: center;
+}
+
+.resultIcon {
+  margin-left: 0.3rem;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  color: rgb(36, 114, 167);
+}
+
+.button:hover {
+  color: rgb(19, 67, 99);
+  text-decoration: underline;
+}

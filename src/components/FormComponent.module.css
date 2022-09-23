@@ -1,0 +1,58 @@
+.formMainDiv {
+  margin-top: 10px;
+}
+
+.formMain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 75%;
+  height: 35px;
+  border: 1px solid #607b8a;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px rgb(155, 225, 228);
+  border: 1px solid #88b6cf;
+}
+
+.searchButton {
+  width: 25%;
+  height: 38px;
+  background: #1f4583;
+  border-radius: 6px;
+  border: solid #9fb6ff 1px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.searchButton:hover {
+  background-color: #0f2e61;
+  transition-duration: 0.4s;
+}
+
+@media only screen and (max-width: 425px) {
+  .formMain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchInput {
+    width: auto;
+    min-width: 100%;
+  }
+
+  .searchButton {
+    width: 100%;
+  }
+}
