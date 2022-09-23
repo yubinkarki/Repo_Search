@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@500&display=swap");
+
+.homeMainDiv h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+.homeMainDiv {
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
+}
+
+.homeMainGridItem {
+  padding-top: 8%;
+  /* border: 1px solid red; */
+}
+
+.headingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.headingLink {
+  font-size: 1.5rem;
+  position: absolute;
+  right: 88%;
+  top: 15%;
+  color: black;
+}
+
+.headingLink:hover {
+  color: rgb(63, 108, 119);
+}
+
+.homeSubtitleDiv {
+  font-size: 1rem;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  margin: 2% 0;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+}
+
+.footerLink {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  margin: 2% 0;
+  color: rgb(17, 42, 44);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  color: rgb(63, 108, 119);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+@media only screen and (max-width: 630px) {
+  .headingIcon {
+    display: none;
+  }
+}
